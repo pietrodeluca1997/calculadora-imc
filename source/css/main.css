@@ -1,0 +1,104 @@
+:root {
+    --background-color: linear-gradient(0deg, #063053, #395873);
+}
+
+html,
+body {
+    height: 100%;
+    overflow-y: auto;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: var(--background-color);
+    background-repeat: no-repeat;
+}
+
+#page-container {
+    margin: auto;
+}
+
+#copyright {
+    color: white;
+}
+
+#logo-form-wrapper {
+    box-shadow: 7px 8px 20px #9a27af, -12px -1px 20px rgba(0, 0, 0, 0.5);
+}
+
+#imc-form-background {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-left-radius: 0.2rem !important;
+    border-bottom-right-radius: 0.2rem !important;
+}
+
+#impacta-logo {
+    border-top-left-radius: 0.2rem !important;
+    border-top-right-radius: 0.2rem !important;
+    box-shadow: inset white 0 0 12px 0px;
+}
+
+#display-informativo {
+    transform: translateX(30px);
+    margin-top: 30%;
+    height: 52%;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+}
+
+
+.table {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    color: white;
+}
+
+table td {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+table th {
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+
+}
+
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-color: inherit;    
+    border-style: none;
+    border-width: 0;
+}
+
+#resultado {
+    font-size: 20px;    
+}
+
+#resultado-imc {
+    font-size: 25px;
+    color: red;
+    font-weight: 500;
+}
+
+#resultado-nutricional {
+    font-size: 25px;
+    color: red;
+    font-weight: 500;
+}
